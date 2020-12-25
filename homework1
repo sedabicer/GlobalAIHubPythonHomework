@@ -1,0 +1,21 @@
+value1=int(input("Enter an integer value: "))
+value2=str(input("Enter a string value: "))
+value3=bool(input("Enter a boolean value: "))
+value4=float(input("Enter a float value: "))
+value5=complex(input("Enter a complex value: "))
+
+
+print(f"First value is {value1}")
+print("The class of the 1.value :{}".format(type(value1)))
+print(f"First value is {value2}")
+print("The class of the 2.value :{}".format(type(value2)))
+print(f"First value is {value3}")
+print("The class of the 3.value :{}".format(type(value3)))
+print(f"First value is {value4}")
+print("The class of the 4.value :{}".format(type(value4)))
+print(f"First value is {value5}")
+print("The class of the 5.value :{}".format(type(value5)))
+
+
+print(f"{type(value1)}  {type(value2)}  {type(value3)}  {type(value4)}  {type(value5)}")
+
